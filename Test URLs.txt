@@ -1,0 +1,21 @@
+Test URLs
+
+Item
+POST  http://localhost:8080/api/items
+GET   http://localhost:8080/api/items
+GET   http://localhost:8080/api/items/1
+DELETE http://localhost:8080/api/items/1
+
+
+BOM
+POST  http://localhost:8080/api/bom
+GET   http://localhost:8080/api/bom
+
+
+Inventory
+POST  http://localhost:8080/api/inventory
+GET   http://localhost:8080/api/inventory
+
+
+MRP Explosion
+GET http://localhost:8080/api/mrp/explode?productId=1&quantity=100
